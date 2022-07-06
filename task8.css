@@ -1,0 +1,222 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.equalizer-musicsound-info-pic, .equalizer-info-logos{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+
+
+.music-sound{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;
+    margin-top: 64px;
+}
+
+
+.music-sound-info{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin-top: 20px;
+}
+
+
+.equalizer-logo{
+    margin-top: 39.9px;
+}
+
+
+.black-box{
+    display: flex;
+    background: #191826;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 166px;
+    justify-content: center;
+}
+
+
+.illustration-app{
+    position: absolute;
+    height: 430px;
+    width: 208.9719696044922px;
+    transform: translateY(-80px);
+}
+
+
+.orange-box{
+    background: #FA7453;
+    border-radius: 12px;
+    width: 100%;
+    padding-left: 36px;
+    padding-right: 36px;
+    position: relative;
+    top: -50px;
+}
+
+
+.premium-eq{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    margin-top: 48px;
+}
+
+
+.eq-info{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    margin-top: 12px;
+}
+
+
+.subscription{
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+
+.amount{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+
+.length{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+    padding-left: 16px;
+}
+
+
+.ios-download{
+    display: flex;
+    background: #191826;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+}
+
+
+.apple{
+    padding-right: 7px;
+}
+
+
+.apple-download-text{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+
+
+.android-download{
+    display: flex;
+    background: #FCFAF9;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+
+.android-download-text{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+
+
+.final-info{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+
+.info-mail{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+
+.social-media{
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 80px;
+}
+
+
+.fb-logo,.instagram-logo{
+    padding-right: 20px;
+}
+
+
+
+
+
