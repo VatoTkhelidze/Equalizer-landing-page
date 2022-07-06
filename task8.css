@@ -15,6 +15,11 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url("file:///C:/Users/ThinkPad/Desktop/Bootcamp/task8(assets)/equalizer-landing-page/starter-code/assets/bg-main-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: -60px -358px;
 }
 
 
@@ -22,6 +27,8 @@ body{
     padding-left: 24px;
     padding-right: 24px;
 }
+
+
 
 
 
