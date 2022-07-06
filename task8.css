@@ -29,6 +29,10 @@ body{
 }
 
 
+.bg-pattern-1{
+    display: none;
+}
+
 
 
 
@@ -227,3 +231,64 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .music-sound{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+        color: #191826;
+        height: 192px;
+        width: 520px;
+    }
+
+
+    /* .bg-pattern-1{
+        display: flex;
+    } */
+
+
+    .equalizer-musicsound-info-pic{
+        display: flex;
+        flex-direction: column;
+        padding-left: 39px;
+        padding-right: 0;
+    }
+    
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("file:///C:/Users/ThinkPad/Desktop/Bootcamp/task8(assets)/equalizer-landing-page/starter-code/assets/bg-main-mobile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: -60px -358px;
+    }
+
+
+
+    .music-sound-info{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #191826;
+        margin-top: 28px;
+    }
+}
