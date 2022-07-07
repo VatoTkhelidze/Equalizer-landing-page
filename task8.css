@@ -64,6 +64,12 @@ body{
     margin-top: 39.9px;
 }
 
+.black-box-padding-container{
+    width: 100%;
+    padding-left: 33px;
+    padding-right: 39px;
+}
+
 
 .black-box{
     display: flex;
@@ -220,6 +226,7 @@ body{
     display: flex;
     margin-top: 64px;
     margin-bottom: 80px;
+    padding-left: 24px;
 }
 
 
@@ -228,6 +235,14 @@ body{
 }
 
 
+.music-sound-info-tablet{
+    display: none;
+}
+
+
+.black-box-padding-container{
+    padding: 0;
+}
 
 
 
@@ -255,22 +270,34 @@ body{
     }
 
 
-    /* .bg-pattern-1{
+    .bg-pattern-1{
+        display: block;
+        height: 400px;
+        width: 266.6666564941406px;
+        position: absolute;
+        right: -34px;
+        top: -34px;
+    }
+
+
+    .equalizer-musicsound-info-pic-tablet{
         display: flex;
-    } */
+        position: relative;
+        overflow: hidden;
+        height: 470px;
+    }
 
 
     .equalizer-musicsound-info-pic{
         display: flex;
         flex-direction: column;
         padding-left: 39px;
-        padding-right: 0;
     }
     
 
     body{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         background-image: url("file:///C:/Users/ThinkPad/Desktop/Bootcamp/task8(assets)/equalizer-landing-page/starter-code/assets/bg-main-mobile.png");
@@ -281,14 +308,102 @@ body{
     }
 
 
+    header{
+        width: 100%;
+    }
 
-    .music-sound-info{
+
+    .music-sound-info-tablet{
         font-family: 'IBM Plex Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
         color: #191826;
+        /* width: 514px; */
         margin-top: 28px;
+        display: block;
     }
+
+    .music-sound-info{
+        display: none;
+    }
+
+
+
+    .illustration-app{
+        position: absolute;
+        height: 555px;
+        width: 270.9719696044922px;
+        transform: translate(-162px, -140px);
+    }
+
+
+
+    .orange-box{
+        background: #FA7453;
+        border-radius: 12px;
+        height: 546px;
+        width: 399px;
+        position: absolute;
+        left: 255px;
+        top: 870px;
+    }
+
+
+
+    .black-box{
+        height: 600px;
+        margin-top: 250px;
+    }
+
+
+    .black-box-padding-container{
+        padding-left: 33px;
+        padding-right: 39px;
+    }
+
+
+
+    .bg-pattern-2{
+        height: 420px;
+        width: 280px;
+        position: relative;
+        top: -32px;
+        left: 5px;
+    }
+
+
+    .equalizer-info-logos{
+        margin-top: 182px;
+        padding-left: 33px;
+        margin-bottom: 85px;
+    }
+
+
+    .social-media{
+        display: flex;
+        margin-top: 180px;
+        padding-right: 39px;
+        margin-bottom: 0;
+    }
+
+
+
+    footer{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+
+
+    .equalizer{
+        margin-bottom: 32px;
+    }
+
+
 }
