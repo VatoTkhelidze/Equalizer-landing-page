@@ -239,6 +239,10 @@ body{
     display: none;
 }
 
+.music-sound-info-desktop{
+    display: none;
+}
+
 
 .black-box-padding-container{
     padding: 0;
@@ -320,12 +324,15 @@ body{
         font-size: 18px;
         line-height: 28px;
         color: #191826;
-        /* width: 514px; */
         margin-top: 28px;
         display: block;
     }
 
     .music-sound-info{
+        display: none;
+    }
+
+    .music-sound-info-desktop{
         display: none;
     }
 
@@ -422,6 +429,127 @@ body{
 
 
 
-/* 
-@media screen and (min-width: 1024px)
- */
+
+@media screen and (min-width: 1440px){
+    .music-sound{
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        height: 176px;
+        width: 1015px;
+    }
+
+    .black-box{
+        height: 515px;
+        margin-top: 320px;
+    }
+
+
+    .black-box-padding-container{
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+
+
+    .equalizer-musicsound-info-pic{
+        padding-left: 165px;
+        padding-right: 260px;
+    }
+
+
+    .music-sound-info-desktop{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        color: #191826;
+        display: block;
+    }
+
+
+    .music-sound-info{
+        display: none;
+    }
+
+    .music-sound-info-tablet{
+        display: none;
+    }
+
+
+
+    .illustration-app{
+        position: absolute;
+        height: 555px;
+        width: 270.9719696044922px;
+        transform: translate(-341px, -190px);
+    }
+
+
+    .bg-pattern-1{
+        display: block;
+        height: 468px;
+        width: 312px;
+        position: absolute;
+        right: 0;
+        top: -34px;
+    }
+
+
+    .bg-pattern-2{
+        height: 420px;
+        width: 280px;
+        position: relative;
+        top: -35px;
+        left: -137px;
+    }
+
+
+
+    .orange-box{
+        background: #FA7453;
+        border-radius: 12px;
+        height: 546px;
+        width: 399px;
+        position: absolute;
+        top: 870px;
+        transform: translate(-50%, 0);
+        left: 50%;
+        margin-left: 125px;
+    }
+
+
+    footer{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .equalizer-info-logos{
+        display: flex;
+    }
+
+
+    .final-info{
+        padding-left: 137px;
+        margin-top: 30px;
+    }
+
+    .info-mail{
+        padding-left: 137px;
+    }
+
+
+    .social-media{
+        margin-top: 110px;
+    }
+
+
+    
+}
+
